@@ -1,8 +1,8 @@
 # E-commerce Sales Analytics Project
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](screenshots/Dashboard e-commerce.png)
 
-## 📋 Project Overview
+## Project Overview
 This project presents a comprehensive analysis of an e-commerce store's sales data. The goal was to extract key business insights, segment customers, analyze product performance, and create a dashboard for decision-making.
 
 **Business questions answered:**
@@ -12,20 +12,20 @@ This project presents a comprehensive analysis of an e-commerce store's sales da
 - How do different regions perform?
 - What is customer retention rate?
 
-## 🛠️ Tools & Skills
+## Tools & Skills
 - **SQL (PostgreSQL):** Complex queries, CTEs, window functions, cohort analysis
 - **Excel:** Pivot tables, data visualization, conditional formatting, dashboard design
 - **Analytics:** RFM segmentation, cohort analysis, AOV analysis, retention rate calculation
 
 ## 📁 Project Structure
-├── 📁 sql_queries/ # All SQL analysis scripts 
-├── 📁 excel/ # Excel dashboard file
-├── 📁 screenshots/ # Dashboard preview image
-└── README.md # Project documentation
+sql_queries/ # All SQL analysis scripts 
+excel/ # Excel dashboard file
+screenshots/ # Dashboard preview image
+README.md # Project documentation
 
 *Note: Click on the folders above to browse the files.*
 
-## 📊 Key Insights
+## Key Insights
 
 ### 1. Customer Segments
 | Customer Type | Customers | Revenue | % of Total | AOV |
@@ -74,32 +74,32 @@ This project presents a comprehensive analysis of an e-commerce store's sales da
 ### 4. Retention Analysis
 This data is synthetic, which is why all customers show 100% retention. In a real project with actual customer data, this metric would look different and reveal real churn patterns.
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 ### 1. Focus on B2B Growth
 Business customers spend 5.8% more per order and represent 34.7% of revenue with only 10 clients.
-✅ **Action:** Launch a loyalty program for corporate clients (volume discounts, dedicated account manager) to increase purchase frequency and retention.
+**Action:** Launch a loyalty program for corporate clients (volume discounts, dedicated account manager) to increase purchase frequency and retention.
 
 ### 2. Regional Strategy
 - **Key regions** (Novosibirsk, Voronezh, Rostov-on-Don) generate significant revenue.
-  ✅ **Action:** Increase marketing presence and optimize logistics in these regions.
+  **Action:** Increase marketing presence and optimize logistics in these regions.
 - **Kazan** shows premium potential with the highest average check (562 ₽).
-  ✅ **Action:** Test premium product lines and targeted promotions in Kazan.
+  **Action:** Test premium product lines and targeted promotions in Kazan.
 
 ### 3. Product Assortment
 Furniture and Electronics categories lead in revenue.
-✅ **Action:** Expand assortment in these categories and introduce complementary products to increase cross-selling opportunities.
+**Action:** Expand assortment in these categories and introduce complementary products to increase cross-selling opportunities.
 
 ### 4. Customer Retention
-✅ **Action:** Implement regular retention monitoring with real data to detect churn early and launch reactivation campaigns.
+**Action:** Implement regular retention monitoring with real data to detect churn early and launch reactivation campaigns.
 
 ### 5. Pricing Strategy
 Private customers have lower AOV than business clients.
-✅ **Action:** Introduce "free shipping over 1000 ₽" or bundle offers to increase average order value in the private segment.
+**Action:** Introduce "free shipping over 1000 ₽" or bundle offers to increase average order value in the private segment.
 
-## 🔍 SQL Examples
+## SQL Examples
 
-### Example 1: Customer AOV Analysis with Window Function
+### Example: Customer AOV Analysis with Window Function
 ```sql
 -- Calculating Average Order Value by customer type
 -- and comparing with overall average using window function
