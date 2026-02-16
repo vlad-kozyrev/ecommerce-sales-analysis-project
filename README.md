@@ -1,6 +1,6 @@
 # E-commerce Sales Analytics Project
 
-![Dashboard Preview](screenshots/Dashboard e-commerce.png)
+![Dashboard Preview](screenshots/Dashboard.png)
 
 ## Project Overview
 This project presents a comprehensive analysis of an e-commerce store's sales data. The goal was to extract key business insights, segment customers, analyze product performance, and create a dashboard for decision-making.
@@ -18,10 +18,10 @@ This project presents a comprehensive analysis of an e-commerce store's sales da
 - **Analytics:** RFM segmentation, cohort analysis, AOV analysis, retention rate calculation
 
 ## 📁 Project Structure
-sql_queries/ # All SQL analysis scripts 
-excel/ # Excel dashboard file
-screenshots/ # Dashboard preview image
-README.md # Project documentation
+├── sql_queries/          # All SQL analysis scripts 
+├── excel/                 # Excel dashboard file
+├── screenshots/           # Dashboard preview image
+└── README.md                 # Project documentation
 
 *Note: Click on the folders above to browse the files.*
 
