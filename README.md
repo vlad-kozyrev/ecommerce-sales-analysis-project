@@ -19,13 +19,13 @@ This project presents a comprehensive analysis of an e-commerce store's sales da
 
 ## 📁 Project Structure
 
-sql_queries/          # All SQL analysis scripts (10 files)
+- sql_queries/          # All SQL analysis scripts 
 
-excel/                 # Excel dashboard file
+- excel/                 # Excel dashboard file
 
-screenshots/           # Dashboard preview image
+- screenshots/           # Dashboard preview image
 
-README.md                 # Project documentation
+- README.md                 # Project documentation
 
 *Note: Click on the folders above to browse the files.*
 
