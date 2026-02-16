@@ -18,7 +18,7 @@ This project presents a comprehensive analysis of an e-commerce store's sales da
 - **Analytics:** RFM segmentation, cohort analysis, AOV analysis, retention rate calculation
 
 ## 📁 Project Structure
-├── sql_queries/          # All SQL analysis scripts 
+├── sql_queries/          # All SQL analysis scripts
 ├── excel/                 # Excel dashboard file
 ├── screenshots/           # Dashboard preview image
 └── README.md                 # Project documentation
